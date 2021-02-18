@@ -12,6 +12,7 @@
   * **Breaking** `DefaultAudioVideoController` takes additional parameter of `VideoTileController`.
   * [Demo] Demo application is updated to remove observer or sink it adds.
   * **Breaking** `DefaultActiveSpeaker` no longer depends on `AudioClientObserver`.
+* Fixed a concurrency issue on `DefaultCameraCaptureSource` between `start()` and `stop()` invocations.
 
 ## [0.15.0] - 2021-02-04
 
